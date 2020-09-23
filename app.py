@@ -8,8 +8,8 @@ from flask import Flask, jsonify, render_template
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///titanic.sqlite")
-
+engine = create_engine(
+    "postgresql://postgres:postgres@localhost:5432/multi_axial")
 # reflect an existing database into a new model
 Base = automap_base()
 # reflect the tables

@@ -1,7 +1,7 @@
 // Create a map object
 var myMap = L.map("map", {
-  center: [37.09, -95.71],
-  zoom: 5
+  center: [27, -82],
+  zoom: 7
 });
 
 // Add a tile layer
@@ -13,19 +13,6 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   id: "mapbox/streets-v11",
   accessToken: API_KEY
 }).addTo(myMap);
-
-// An array containing each city's name, location, and population
-var cities = [{
-  location: [40.7128, -74.0059],
-  name: "33626",
-  population: "8,550,405"
-},
-{
-  location: [41.8781, -87.6298],
-  name: "33629",
-  population: "2,720,546"
-},
-];
 
 // Loop through the cities array and create one marker for each city, bind a popup containing its name and population add it to the map
 for (var i = 0; i < cities.length; i++) {
