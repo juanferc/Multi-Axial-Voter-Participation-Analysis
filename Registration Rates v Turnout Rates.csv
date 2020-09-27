@@ -1,4 +1,4 @@
-County,zip code,Registration Rate/County,Turnout Rate,latitude,longitude
+county,zip_code,registration_rate_county,turnout_rate,latitude,longitude
 Hillsborough,33626,65%,42%,28.067196,-82.613677
 Hillsborough,33629,65%,69%,27.921808,-82.508953
 Hillsborough,33634,65%,38%,28.003866,-82.545317
