@@ -1,23 +1,67 @@
-// Create a map object
-var myMap = L.map("map", {
-  center: [27, -82],
-  zoom: 7
+var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
+    maxZoom: 18,
+    id: "dark-v10",
+    accessToken: API_KEY
+    });
+
+// map create
+
+    var map = L.maps ("map", {
+    center: [40.4637, 3.7492],
+    zoom: 7,
+    layers: [darkmap]
+    });
+
+    var legend = L.control ({position: 'bottomright'});
+
+
+// pull all earthquake info from last 30 days
+
+var earthquake_url = 'features.geojson';
+
+// assign color variables for earthquake intensity (green to red)
+
+var colors = ['#E53935', '#FB8C00', '#FFB300', '#FDD835', '#C0CA33', '#7CB342']
+
+d3.json (earthquake_url, (response) => {
+
+    L.geoJSON (response, {
+        onEachFeature: (feature) => {
+            var turnout_rate = feature.properties.turnout_rate;
+            var coords = feature.geometry.coordinates;
+            
+            var magColor = ''
+
+            if (turnout_rate > 5) {trnColor = colors[0];}
+            else if (magnitude > 4) {magColor = colors[1];}
+            else if (magnitude > 3) {magColor = colors[2];}
+            else if (magnitude > 2) {magColor = colors[3];}
+            else if (magnitude > 1) {magColor = colors[4];}
+            else {magColor = colors[5];}
+            
+            L.circle([coords[1], coords[0]], {
+                radius: Math.pow (turnout_rate, 3) * 1500,
+                color: magColor
+            }).bindPopup (`<strong>magnitude ${turnout_rate}</strong><hr>${feature.properties.place}`)
+            .addTo(map);
+        }
+    });
 });
 
-// Add a tile layer
-L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-  attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
-  tileSize: 512,
-  maxZoom: 18,
-  zoomOffset: -1,
-  id: "mapbox/streets-v11",
-  accessToken: API_KEY
-}).addTo(myMap);
+//create legend
 
-// Loop through the cities array and create one marker for each city, bind a popup containing its name and population add it to the map
-for (var i = 0; i < cities.length; i++) {
-  var city = cities[i];
-  L.marker(city.location)
-    .bindPopup("<h1>" + city.name + "</h1> <hr> <h3>Population " + city.population + "</h3>")
-    .addTo(myMap);
-}
+legend.onAdd = ((map) => {
+    var div = L.DomUtil.create ('div', 'info legend');
+
+    grades = ['>5', '4-5', '3-4', '2-3', '1-2', '<1'];
+
+    div.innerHTML = '<strong>Magnitude</strong><hr>';
+
+    for (var x = 0; x < colors.length; x++) {
+        div.innerHTML += `<i style = "background: ${colors[x]}"></i>${grades[x]}<br>`;
+    }
+    return div;
+});
+
+legend.addTo(map);

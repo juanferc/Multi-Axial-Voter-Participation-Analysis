@@ -4,6 +4,8 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
+from config import API_KEY
+import json
 
 from flask import Flask, jsonify, render_template
 
@@ -25,6 +27,10 @@ app = Flask(__name__)
 #################################################
 # Flask Routes
 #################################################
+@app.route('/')
+def index():
+    return(render_template('dashboard.html'))
+
 
 
 @app.route('/Voter')

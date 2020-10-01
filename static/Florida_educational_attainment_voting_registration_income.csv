@@ -1,4 +1,4 @@
-zip_code,less_than_grade_9_est,high_school_non_grad_est,high_school_grad_est,some_college_no_degree_est,associates_degree_est,bachelor_degree_est,grad_or_professional_degree_est,registration_rate,turnout_rate,latitude,longitude,population,num_registered_voters,num_voted,did_not_vote,average_house_value,average_income
+Zip_CoDE,less_than_grade_9_est,high_school_non_grad_est,high_school_grad_est,some_college_no_degree_est,associates_degree_est,bachelor_degree_est,grad_or_professional_degree_est,registration_rate,turnout_rate,latitude,longitude,population,num_registered_voters,num_voted,did_not_vote,average_house_value,average_income
 33626,165,444,2529,3183,1661,7030,4525,65%,42%,28.067196,-82.613677,33535,33382,"14,115","19,267","347,700","106,560"
 33629,305,166,2263,2425,1118,6512,5457,65%,69%,27.921808,-82.508953,24930,34542,"15,507","19,035","492,300","115,180"
 33634,838,1250,4248,2717,1294,2988,1290,65%,38%,28.003866,-82.545317,22560,19609,"7,468","12,141","162,400","58,013"
