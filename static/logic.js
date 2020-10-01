@@ -5,7 +5,7 @@ var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z
     accessToken: API_KEY
     });
 
-// map create
+// create map
 
     var map = L.maps ("map", {
     center: [27.6648, -81.5158],
@@ -34,10 +34,10 @@ d3.json (data_url, (response) => {
             var trnColor = ''
 
             if (turnout_rate > 5) {trnColor = colors[0];}
-            else if (magnitude > 4) {trnColor = colors[1];}
-            else if (magnitude > 3) {trnColor = colors[2];}
-            else if (magnitude > 2) {trnColor = colors[3];}
-            else if (magnitude > 1) {trnColor = colors[4];}
+            else if (turnout_rate > 4) {trnColor = colors[1];}
+            else if (turnout_rate > 3) {trnColor = colors[2];}
+            else if (turnout_rate > 2) {trnColor = colors[3];}
+            else if (turnout_rate > 1) {trnColor = colors[4];}
             else {trnColor = colors[5];}
             
             L.circle([coords[1], coords[0]], {
