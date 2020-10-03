@@ -30,56 +30,17 @@ d3.csv("/static/FinalProjectData.csv").then(function (data) {
   var data = [trace1, trace2];
   var layout = {
     barmode: 'group',
-    bargap: 0.5,
+    bargap: 100,
     xaxis: {
       type: 'category',
       tickangle: -45,
       autorange: true
     },
     yaxis: {
-      range: [0, 1]
+      tickformat: ',.0%',
+      range: [0, 1],
     }
   };
 
   Plotly.newPlot('myDiv', data, layout);
 });
-// map_geojson = {
-//   "type": "FeatureCollection",
-//   "features" : []
-// }
-
-// data.map(function(p){
-//   //console.log(p)
-
-
-//     map_geojson['features'].push(genFeatureDict(p));
-// });
-
-// console.log(map_geojson);
-
-
-//   }).catch(function(error) {
-//     console.log(error);
-
-//   });
-
-
-//   function genFeatureDict(info){
-//     f = {
-//         "type" : "Feature",
-//         "geometry":{
-//             "type": "Point",
-//             "coordinates": [info.Latitude,info.Longitude]
-//         },
-//         "properties" : {
-//             "City" : info.City,
-//             "zipcode" : info.Zip_CoDE,
-//             "Turnout Rate" : info.turnout_rate
-//         },
-
-//     }
-//     return f;
-//   };
-
-
-
