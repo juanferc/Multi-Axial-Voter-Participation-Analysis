@@ -2970,33 +2970,6 @@
     "City":"Palm Bay",
     "State":"FL"
     }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  { }
-    },
-    "properties": {
-    "Zip_CoDE":null,
-    "less_than_grade_9_est":null,
-    "high_school_non_grad_est":null,
-    "high_school_grad_est":null,
-    "some_college_no_degree_est":null,
-    "associates_degree_est":null,
-    "bachelor_degree_est":null,
-    "grad_or_professional_degree_est":null,
-    "registration_rate":null,
-    "turnout_rate":null,
-    "population":null,
-    "num_registered_voters":null,
-    "num_voted":"",
-    "did_not_vote":"",
-    "average_house_value":"",
-    "average_income":"",
-    "City":"",
-    "State":""
-    }
   }
 ]
 }

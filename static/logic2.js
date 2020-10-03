@@ -1,5 +1,7 @@
-d3.json('/static/FinalProjectData.geojson').then(function (data) {
+d3.json('/static/final_data.geojson').then(function (data) {
     var points = data.features;
+
+    console.log(points)
 
     var map = L.map("map", {
         center: [27.6648, -81.5158],
@@ -36,35 +38,34 @@ d3.json('/static/FinalProjectData.geojson').then(function (data) {
         return div;
     };
 
+    var markers = L.markerClusterGroup();
+    var zip_markers = [];
+
+    for (var i = 0; i < points.length; i++) {
+        markers.addLayer(L.marker([points[i].geometry.coordinates[1], points[i].geometry.coordinates[0]])
+            .bindPopup(`
+                This City is ${points[i].properties.City}, 
+                which has a population of ${points[i].properties.population}, 
+                and where it's etimates that ${points[i].properties.bachelor_degree_est} people have a bachelor's degree.
+            `));
+        // zip_markers.push(
+        //     L.circle(points[i].geometry.coordinates, {
+        //         stroke: false,
+        //         fillOpacity: 0.75,
+        //         color: "white",
+        //         // radius: markerSize(points[i].properties.average_income)
+        //     })
+        // );
+        // markers.addLayer(L.marker([points.geometry.coordinates[1], points.geometry.coordinates[0]])
+        //     .bindPopup(points[i].descriptor));
+    }
+
+    // var avg_inc = L.layerGroup(zip_markers);
+
+    // map.addLayer(avg_inc);
+    map.addLayer(markers);
+
     info.addTo(map);
 
-
     var legend = L.control({ position: 'bottomright' });
-
 });
-
-// async function info() {
-//     const data = await d3.json(data_url);
-//     var markers = L.markerClusterGroup();
-//     for (var i = 0; i < info.length; i++) {
-//         zip_markers.push(
-//             L.circle(info[i].geometry.coordinates, {
-//                 stroke: false,
-//                 fillOpacity: 0.75,
-//                 color: "white",
-//                 radius: markerSize(info[i].properties.average_income)
-//             })
-//         );
-//         // markers.addLayer(L.marker([info.geometry.coordinates[1], info.geometry.coordinates[0]])
-//         //     .bindPopup(info[i].descriptor));
-
-//     }
-
-//     var avg_inc = L.layerGroup(zip_markers);
-
-
-
-//     map.addLayer(avg_inc);
-// };
-
-// console.log(info);
