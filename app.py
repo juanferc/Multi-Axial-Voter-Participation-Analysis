@@ -4,8 +4,6 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
-from config import API_KEY
-import json
 
 from flask import Flask, jsonify, render_template
 
@@ -27,8 +25,6 @@ app = Flask(__name__)
 #################################################
 # Flask Routes
 #################################################
-
-
 
 
 @app.route('/Voter')
@@ -60,7 +56,7 @@ def Voters():
         voter_dict["average_house_value"] = average_house_value
         voter_dict["average_income"] = average_income
         tinfoil.append(voter_dict)
-    print(tinfoil, file=sys.stdout)
+    #print(tinfoil, file=sys.stdout)
 
               
     return render_template('index.html', voter_map_data = tinfoil)
