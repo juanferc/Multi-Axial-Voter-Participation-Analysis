@@ -1,4 +1,4 @@
-d3.csv("../static/Florida_data.csv").then(function(data) {
+d3.csv("../static/FinalData.csv").then(function(data) {
     console.log(data)
 
 var zip_code = data.map(function(point){
@@ -34,7 +34,20 @@ var data_bar = [trace1, trace2];
 
 var layout = {
   title: "Voter Participation Rates",
-  xaxis: { title: "Zip Code", autorange:true },
+  xaxis: { title: "Zip Code", autorange:true,
+            titlefont: {
+            family: 'Arial, sans-serif',
+            size: 18,
+            color: 'lightgrey'
+          },
+          showticklabels: true,
+          tickangle: 'auto',
+          tickfont: {
+            family: 'Old Standard TT, serif',
+            size: 14,
+            color: 'black'
+          },
+        },
   yaxis: { title: "Turnout Rate", autorange:true},
   barmode: "group"
 };
