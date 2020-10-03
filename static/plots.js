@@ -1,4 +1,4 @@
-d3.csv("/static/FinalData.csv").then(function (data) {
+d3.csv("/static/FinalProjectData.csv").then(function (data) {
   // y axis
   var voter_turnout = data.map(function (point) {
     return point.turnout_rate
@@ -35,6 +35,9 @@ d3.csv("/static/FinalData.csv").then(function (data) {
       type: 'category',
       tickangle: -45,
       autorange: true
+    },
+    yaxis: {
+      range: [0, 1]
     }
   };
 
