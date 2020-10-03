@@ -7,13 +7,43 @@ var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z
 
 // create map
 
-    var map = L.maps ("map", {
+var layers = {
+    Population: new L.LayerGroup(),
+    Turnout: new L.LayerGroup(),
+    Registration: new L.LayerGroup()
+};
+
+var map = L.map ("map", {
     center: [27.6648, -81.5158],
     zoom: 7,
-    layers: [darkmap]
+    layers: [
+        darkmap
+    ]
     });
 
-    var legend = L.control ({position: 'bottomright'});
+darkmap.addTo(map);
+
+var overlays = {
+    "Population": layers.Population,
+    "Turnout Rate": layers.Turnout,
+    "Registration Rate": layers.Registration
+};
+
+L.control.layers(null, overlays).addTo(map);
+
+var info = L.control({
+    position: "bottomright"
+  });
+  
+info.onAdd = function() { 
+    var div = L.DomUtil.create("div", "legend");
+    return div;
+  };
+
+info.addTo(map);
+
+
+var legend = L.control ({position: 'bottomright'});
 
 
 // pull all data
@@ -28,16 +58,19 @@ d3.json (data_url, (response) => {
 
     L.geoJSON (response, {
         onEachFeature: (feature) => {
-            var turnout_rate = feature.properties.turnout_rate;
+            var Turnout = feature.properties.turnout_rate;
             var coords = feature.geometry.coordinates;
+            var Registration = feature.geometry.registration_rate;
+            var Population = feature.geometry.population
+
             
             var trnColor = ''
 
-            if (turnout_rate > 5) {trnColor = colors[0];}
-            else if (turnout_rate > 4) {trnColor = colors[1];}
-            else if (turnout_rate > 3) {trnColor = colors[2];}
-            else if (turnout_rate > 2) {trnColor = colors[3];}
-            else if (turnout_rate > 1) {trnColor = colors[4];}
+            if (turnout_rate > 0.45) {trnColor = colors[0];}
+            else if (turnout_rate > 0.50) {trnColor = colors[1];}
+            else if (turnout_rate > 0.55) {trnColor = colors[2];}
+            else if (turnout_rate > 0.60) {trnColor = colors[3];}
+            else if (turnout_rate > 0.65) {trnColor = colors[4];}
             else {trnColor = colors[5];}
             
             L.circle([coords[1], coords[0]], {
@@ -54,12 +87,12 @@ d3.json (data_url, (response) => {
 legend.onAdd = ((map) => {
     var div = L.DomUtil.create ('div', 'info legend');
 
-    grades = ['>5', '4-5', '3-4', '2-3', '1-2', '<1'];
+    rates = ['>5', '4-5', '3-4', '2-3', '1-2', '<1'];
 
-    div.innerHTML = '<strong>Turnout</strong><hr>';
+    div.innerHTML = '<strong>turnout</strong><hr>';
 
     for (var x = 0; x < colors.length; x++) {
-        div.innerHTML += `<i style = "background: ${colors[x]}"></i>${grades[x]}<br>`;
+        div.innerHTML += `<i style = "background: ${colors[x]}"></i>${rates[x]}<br>`;
     }
     return div;
 });
