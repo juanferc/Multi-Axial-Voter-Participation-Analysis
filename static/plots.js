@@ -29,6 +29,7 @@ d3.csv("/static/FinalProjectData.csv").then(function (data) {
 
   var data = [trace1, trace2];
   var layout = {
+    width: 1000,
     barmode: 'group',
     bargap: 100,
     xaxis: {
@@ -42,5 +43,5 @@ d3.csv("/static/FinalProjectData.csv").then(function (data) {
     }
   };
 
-  Plotly.newPlot('myDiv', data, layout);
+  Plotly.newPlot('bar-plot', data, layout);
 });
