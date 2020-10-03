@@ -1,15 +1,11 @@
 import csv
 import sys
 import sqlalchemy
+import json
+from flask import Flask, jsonify, render_template
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
-from config import API_KEY
-import json
-
-from flask import Flask, jsonify, render_template
-
-
 
 Base = automap_base()
 engine = create_engine('postgresql://postgres:postgres@localhost:5432/multi_axial')
@@ -27,9 +23,6 @@ app = Flask(__name__)
 #################################################
 # Flask Routes
 #################################################
-
-
-
 
 @app.route('/Voter')
 def Voters():
@@ -62,7 +55,6 @@ def Voters():
         tinfoil.append(voter_dict)
     print(tinfoil, file=sys.stdout)
 
-              
     return render_template('index.html', voter_map_data = tinfoil)
 
 
