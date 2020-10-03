@@ -27,9 +27,7 @@ app = Flask(__name__)
 #################################################
 # Flask Routes
 #################################################
-@app.route('/')
-def index():
-    return(render_template('dashboard.html'))
+
 
 
 

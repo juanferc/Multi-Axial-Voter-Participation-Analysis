@@ -69,3 +69,5 @@ var avg_inc = L.layerGroup(zip_markers);
 
 map.addLayer(avg_inc);
 };
+
+console.log(info);
