@@ -1,0 +1,3002 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.61135,28.052799 ]
+    },
+    "properties": {
+    "Zip_CoDE":33626,
+    "less_than_grade_9_est":165,
+    "high_school_non_grad_est":444,
+    "high_school_grad_est":2529,
+    "some_college_no_degree_est":3183,
+    "associates_degree_est":1661,
+    "bachelor_degree_est":7030,
+    "grad_or_professional_degree_est":4525,
+    "registration_rate":0.65,
+    "turnout_rate":0.42,
+    "population":33535,
+    "num_registered_voters":33382,
+    "num_voted":"14,115",
+    "did_not_vote":"19,267",
+    "average_house_value":"347,700",
+    "average_income":"106,560",
+    "City":"Tampa",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.50916,27.92085 ]
+    },
+    "properties": {
+    "Zip_CoDE":33629,
+    "less_than_grade_9_est":305,
+    "high_school_non_grad_est":166,
+    "high_school_grad_est":2263,
+    "some_college_no_degree_est":2425,
+    "associates_degree_est":1118,
+    "bachelor_degree_est":6512,
+    "grad_or_professional_degree_est":5457,
+    "registration_rate":0.65,
+    "turnout_rate":0.69,
+    "population":24930,
+    "num_registered_voters":34542,
+    "num_voted":"15,507",
+    "did_not_vote":"19,035",
+    "average_house_value":"492,300",
+    "average_income":"115,180",
+    "City":"Tampa",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.54936,28.005497 ]
+    },
+    "properties": {
+    "Zip_CoDE":33634,
+    "less_than_grade_9_est":838,
+    "high_school_non_grad_est":1250,
+    "high_school_grad_est":4248,
+    "some_college_no_degree_est":2717,
+    "associates_degree_est":1294,
+    "bachelor_degree_est":2988,
+    "grad_or_professional_degree_est":1290,
+    "registration_rate":0.65,
+    "turnout_rate":0.38,
+    "population":22560,
+    "num_registered_voters":19609,
+    "num_voted":"7,468",
+    "did_not_vote":"12,141",
+    "average_house_value":"162,400",
+    "average_income":"58,013",
+    "City":"Tampa",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.60593,28.031088 ]
+    },
+    "properties": {
+    "Zip_CoDE":33635,
+    "less_than_grade_9_est":330,
+    "high_school_non_grad_est":697,
+    "high_school_grad_est":3495,
+    "some_college_no_degree_est":2869,
+    "associates_degree_est":1345,
+    "bachelor_degree_est":2214,
+    "grad_or_professional_degree_est":1407,
+    "registration_rate":0.65,
+    "turnout_rate":0.39,
+    "population":18517,
+    "num_registered_voters":18163,
+    "num_voted":"7,113",
+    "did_not_vote":"11,050",
+    "average_house_value":"164,700",
+    "average_income":"60,267",
+    "City":"Tampa",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.36289,28.038324 ]
+    },
+    "properties": {
+    "Zip_CoDE":33637,
+    "less_than_grade_9_est":450,
+    "high_school_non_grad_est":539,
+    "high_school_grad_est":2549,
+    "some_college_no_degree_est":2188,
+    "associates_degree_est":1037,
+    "bachelor_degree_est":2216,
+    "grad_or_professional_degree_est":1071,
+    "registration_rate":0.65,
+    "turnout_rate":0.38,
+    "population":18417,
+    "num_registered_voters":16651,
+    "num_voted":"6,352",
+    "did_not_vote":"10,299",
+    "average_house_value":"146,000",
+    "average_income":"52,635",
+    "City":"Tampa",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.63931,27.770955 ]
+    },
+    "properties": {
+    "Zip_CoDE":33701,
+    "less_than_grade_9_est":334,
+    "high_school_non_grad_est":944,
+    "high_school_grad_est":2763,
+    "some_college_no_degree_est":2334,
+    "associates_degree_est":868,
+    "bachelor_degree_est":2851,
+    "grad_or_professional_degree_est":2230,
+    "registration_rate":0.72,
+    "turnout_rate":0.41,
+    "population":19376,
+    "num_registered_voters":25175,
+    "num_voted":"10,330",
+    "did_not_vote":"14,845",
+    "average_house_value":"344,500",
+    "average_income":"35,770",
+    "City":"Saint Petersburg",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.92392,28.041198 ]
+    },
+    "properties": {
+    "Zip_CoDE":33801,
+    "less_than_grade_9_est":1607,
+    "high_school_non_grad_est":3107,
+    "high_school_grad_est":7962,
+    "some_college_no_degree_est":4436,
+    "associates_degree_est":1538,
+    "bachelor_degree_est":2250,
+    "grad_or_professional_degree_est":911,
+    "registration_rate":0.69,
+    "turnout_rate":0.37,
+    "population":32970,
+    "num_registered_voters":28474,
+    "num_voted":"10,579",
+    "did_not_vote":"17,895",
+    "average_house_value":"78,700",
+    "average_income":"35,696",
+    "City":"Lakeland",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.95206,28.015032 ]
+    },
+    "properties": {
+    "Zip_CoDE":33803,
+    "less_than_grade_9_est":617,
+    "high_school_non_grad_est":1186,
+    "high_school_grad_est":6474,
+    "some_college_no_degree_est":3947,
+    "associates_degree_est":1695,
+    "bachelor_degree_est":4510,
+    "grad_or_professional_degree_est":2543,
+    "registration_rate":0.69,
+    "turnout_rate":0.42,
+    "population":29675,
+    "num_registered_voters":31091,
+    "num_voted":"13,167",
+    "did_not_vote":"17,924",
+    "average_house_value":"133,100",
+    "average_income":"51,502",
+    "City":"Lakeland",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.95802,28.071564 ]
+    },
+    "properties": {
+    "Zip_CoDE":33805,
+    "less_than_grade_9_est":1152,
+    "high_school_non_grad_est":1751,
+    "high_school_grad_est":5848,
+    "some_college_no_degree_est":2971,
+    "associates_degree_est":1364,
+    "bachelor_degree_est":1493,
+    "grad_or_professional_degree_est":738,
+    "registration_rate":0.69,
+    "turnout_rate":0.38,
+    "population":27347,
+    "num_registered_voters":24203,
+    "num_voted":"9,086",
+    "did_not_vote":"15,117",
+    "average_house_value":"79,900",
+    "average_income":"35,198",
+    "City":"Lakeland",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.05972,26.983094 ]
+    },
+    "properties": {
+    "Zip_CoDE":33980,
+    "less_than_grade_9_est":288,
+    "high_school_non_grad_est":1077,
+    "high_school_grad_est":2825,
+    "some_college_no_degree_est":2519,
+    "associates_degree_est":937,
+    "bachelor_degree_est":1618,
+    "grad_or_professional_degree_est":764,
+    "registration_rate":0.84,
+    "turnout_rate":0.43,
+    "population":13407,
+    "num_registered_voters":13897,
+    "num_voted":"6,029",
+    "did_not_vote":"7,868",
+    "average_house_value":"140,800",
+    "average_income":"43,559",
+    "City":"Port Charlotte",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.95134,26.958821 ]
+    },
+    "properties": {
+    "Zip_CoDE":33982,
+    "less_than_grade_9_est":544,
+    "high_school_non_grad_est":871,
+    "high_school_grad_est":2707,
+    "some_college_no_degree_est":2227,
+    "associates_degree_est":779,
+    "bachelor_degree_est":618,
+    "grad_or_professional_degree_est":436,
+    "registration_rate":0.84,
+    "turnout_rate":0.42,
+    "population":12593,
+    "num_registered_voters":12939,
+    "num_voted":"5,469",
+    "did_not_vote":"7,470",
+    "average_house_value":"113,200",
+    "average_income":"47,067",
+    "City":"Punta Gorda",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.01048,29.733375 ]
+    },
+    "properties": {
+    "Zip_CoDE":32666,
+    "less_than_grade_9_est":159,
+    "high_school_non_grad_est":299,
+    "high_school_grad_est":1636,
+    "some_college_no_degree_est":1177,
+    "associates_degree_est":495,
+    "bachelor_degree_est":522,
+    "grad_or_professional_degree_est":383,
+    "registration_rate":0.69,
+    "turnout_rate":0.43,
+    "population":5679,
+    "num_registered_voters":7853,
+    "num_voted":"3,374",
+    "did_not_vote":"4,479",
+    "average_house_value":"136,100",
+    "average_income":"47,067",
+    "City":"Melrose",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.27775,29.502067 ]
+    },
+    "properties": {
+    "Zip_CoDE":32667,
+    "less_than_grade_9_est":54,
+    "high_school_non_grad_est":101,
+    "high_school_grad_est":755,
+    "some_college_no_degree_est":417,
+    "associates_degree_est":327,
+    "bachelor_degree_est":440,
+    "grad_or_professional_degree_est":480,
+    "registration_rate":0.7,
+    "turnout_rate":0.44,
+    "population":3649,
+    "num_registered_voters":5447,
+    "num_voted":"2,401",
+    "did_not_vote":"3,046",
+    "average_house_value":"236,200",
+    "average_income":"52,500",
+    "City":"Micanopy",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.51776,29.282158 ]
+    },
+    "properties": {
+    "Zip_CoDE":32668,
+    "less_than_grade_9_est":77,
+    "high_school_non_grad_est":170,
+    "high_school_grad_est":1319,
+    "some_college_no_degree_est":668,
+    "associates_degree_est":314,
+    "bachelor_degree_est":206,
+    "grad_or_professional_degree_est":257,
+    "registration_rate":0.74,
+    "turnout_rate":0.42,
+    "population":6019,
+    "num_registered_voters":6317,
+    "num_voted":"2,661",
+    "did_not_vote":"3,656",
+    "average_house_value":"153,500",
+    "average_income":"39,277",
+    "City":"Morriston",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.59446,29.640613 ]
+    },
+    "properties": {
+    "Zip_CoDE":32669,
+    "less_than_grade_9_est":77,
+    "high_school_non_grad_est":357,
+    "high_school_grad_est":2061,
+    "some_college_no_degree_est":1609,
+    "associates_degree_est":1104,
+    "bachelor_degree_est":1821,
+    "grad_or_professional_degree_est":857,
+    "registration_rate":0.7,
+    "turnout_rate":0.43,
+    "population":15554,
+    "num_registered_voters":18531,
+    "num_voted":"8,013",
+    "did_not_vote":"10,518",
+    "average_house_value":"197,900",
+    "average_income":"69,439",
+    "City":"Newberry",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.20022,28.234624 ]
+    },
+    "properties": {
+    "Zip_CoDE":33541,
+    "less_than_grade_9_est":465,
+    "high_school_non_grad_est":1984,
+    "high_school_grad_est":6774,
+    "some_college_no_degree_est":3377,
+    "associates_degree_est":1370,
+    "bachelor_degree_est":1357,
+    "grad_or_professional_degree_est":662,
+    "registration_rate":0.75,
+    "turnout_rate":0.41,
+    "population":25278,
+    "num_registered_voters":23848,
+    "num_voted":"9,786",
+    "did_not_vote":"14,062",
+    "average_house_value":"69,300",
+    "average_income":"39,334",
+    "City":"Zephyrhills",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.05611,29.316606 ]
+    },
+    "properties": {
+    "Zip_CoDE":32176,
+    "less_than_grade_9_est":302,
+    "high_school_non_grad_est":602,
+    "high_school_grad_est":3513,
+    "some_college_no_degree_est":2897,
+    "associates_degree_est":1019,
+    "bachelor_degree_est":2285,
+    "grad_or_professional_degree_est":1625,
+    "registration_rate":0.73,
+    "turnout_rate":0.43,
+    "population":17730,
+    "num_registered_voters":20777,
+    "num_voted":"9,020",
+    "did_not_vote":"11,757",
+    "average_house_value":"214,800",
+    "average_income":"46,875",
+    "City":"Ormond Beach",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.38103,30.005135 ]
+    },
+    "properties": {
+    "Zip_CoDE":32054,
+    "less_than_grade_9_est":515,
+    "high_school_non_grad_est":1474,
+    "high_school_grad_est":3404,
+    "some_college_no_degree_est":1667,
+    "associates_degree_est":573,
+    "bachelor_degree_est":498,
+    "grad_or_professional_degree_est":183,
+    "registration_rate":0.49,
+    "turnout_rate":0.43,
+    "population":10403,
+    "num_registered_voters":11233,
+    "num_voted":"4,839",
+    "did_not_vote":"6,394",
+    "average_house_value":"108,100",
+    "average_income":"41,566",
+    "City":"Lake Butler",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.37446,28.541879 ]
+    },
+    "properties": {
+    "Zip_CoDE":32801,
+    "less_than_grade_9_est":304,
+    "high_school_non_grad_est":412,
+    "high_school_grad_est":2187,
+    "some_college_no_degree_est":1303,
+    "associates_degree_est":776,
+    "bachelor_degree_est":3692,
+    "grad_or_professional_degree_est":1789,
+    "registration_rate":0.3,
+    "turnout_rate":0.92,
+    "population":25505,
+    "num_registered_voters":7648,
+    "num_voted":"7052",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.35244,28.557579 ]
+    },
+    "properties": {
+    "Zip_CoDE":32803,
+    "less_than_grade_9_est":87,
+    "high_school_non_grad_est":295,
+    "high_school_grad_est":2169,
+    "some_college_no_degree_est":2230,
+    "associates_degree_est":1669,
+    "bachelor_degree_est":4872,
+    "grad_or_professional_degree_est":2808,
+    "registration_rate":0.89,
+    "turnout_rate":0.73,
+    "population":17780,
+    "num_registered_voters":15736,
+    "num_voted":"11562",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.3931,28.577723 ]
+    },
+    "properties": {
+    "Zip_CoDE":32804,
+    "less_than_grade_9_est":196,
+    "high_school_non_grad_est":403,
+    "high_school_grad_est":3065,
+    "some_college_no_degree_est":2190,
+    "associates_degree_est":1135,
+    "bachelor_degree_est":4501,
+    "grad_or_professional_degree_est":2415,
+    "registration_rate":0.76,
+    "turnout_rate":0.76,
+    "population":17975,
+    "num_registered_voters":13670,
+    "num_voted":"10329",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.40089,28.53028 ]
+    },
+    "properties": {
+    "Zip_CoDE":32805,
+    "less_than_grade_9_est":1316,
+    "high_school_non_grad_est":2352,
+    "high_school_grad_est":5057,
+    "some_college_no_degree_est":2579,
+    "associates_degree_est":834,
+    "bachelor_degree_est":1743,
+    "grad_or_professional_degree_est":533,
+    "registration_rate":0.61,
+    "turnout_rate":0.5,
+    "population":22421,
+    "num_registered_voters":13602,
+    "num_voted":"6823",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.36054,28.51483 ]
+    },
+    "properties": {
+    "Zip_CoDE":32806,
+    "less_than_grade_9_est":317,
+    "high_school_non_grad_est":1062,
+    "high_school_grad_est":5175,
+    "some_college_no_degree_est":3796,
+    "associates_degree_est":2157,
+    "bachelor_degree_est":4830,
+    "grad_or_professional_degree_est":2531,
+    "registration_rate":0.71,
+    "turnout_rate":0.72,
+    "population":27181,
+    "num_registered_voters":19261,
+    "num_voted":"13871",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.30774,28.546897 ]
+    },
+    "properties": {
+    "Zip_CoDE":32807,
+    "less_than_grade_9_est":2314,
+    "high_school_non_grad_est":2518,
+    "high_school_grad_est":7411,
+    "some_college_no_degree_est":3721,
+    "associates_degree_est":2413,
+    "bachelor_degree_est":2666,
+    "grad_or_professional_degree_est":811,
+    "registration_rate":0.63,
+    "turnout_rate":0.55,
+    "population":32345,
+    "num_registered_voters":20439,
+    "num_voted":"11268",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.44369,28.576028 ]
+    },
+    "properties": {
+    "Zip_CoDE":32808,
+    "less_than_grade_9_est":2431,
+    "high_school_non_grad_est":4795,
+    "high_school_grad_est":10943,
+    "some_college_no_degree_est":6296,
+    "associates_degree_est":3174,
+    "bachelor_degree_est":2721,
+    "grad_or_professional_degree_est":1440,
+    "registration_rate":0.53,
+    "turnout_rate":0.51,
+    "population":52245,
+    "num_registered_voters":27719,
+    "num_voted":"14236",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.38814,28.463482 ]
+    },
+    "properties": {
+    "Zip_CoDE":32809,
+    "less_than_grade_9_est":1812,
+    "high_school_non_grad_est":1795,
+    "high_school_grad_est":7011,
+    "some_college_no_degree_est":3474,
+    "associates_degree_est":1437,
+    "bachelor_degree_est":2097,
+    "grad_or_professional_degree_est":840,
+    "registration_rate":0.57,
+    "turnout_rate":0.55,
+    "population":25256,
+    "num_registered_voters":14350,
+    "num_voted":"7870",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.42695,28.619445 ]
+    },
+    "properties": {
+    "Zip_CoDE":32810,
+    "less_than_grade_9_est":1058,
+    "high_school_non_grad_est":2124,
+    "high_school_grad_est":7561,
+    "some_college_no_degree_est":5322,
+    "associates_degree_est":2743,
+    "bachelor_degree_est":3704,
+    "grad_or_professional_degree_est":1112,
+    "registration_rate":0.56,
+    "turnout_rate":0.58,
+    "population":36531,
+    "num_registered_voters":20395,
+    "num_voted":"11882",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.43994,28.52493 ]
+    },
+    "properties": {
+    "Zip_CoDE":32811,
+    "less_than_grade_9_est":1462,
+    "high_school_non_grad_est":2234,
+    "high_school_grad_est":7286,
+    "some_college_no_degree_est":5849,
+    "associates_degree_est":2615,
+    "bachelor_degree_est":3598,
+    "grad_or_professional_degree_est":1373,
+    "registration_rate":0.49,
+    "turnout_rate":0.5,
+    "population":40318,
+    "num_registered_voters":19949,
+    "num_voted":"10027",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.32609,28.493531 ]
+    },
+    "properties": {
+    "Zip_CoDE":32812,
+    "less_than_grade_9_est":759,
+    "high_school_non_grad_est":1494,
+    "high_school_grad_est":7144,
+    "some_college_no_degree_est":5322,
+    "associates_degree_est":3496,
+    "bachelor_degree_est":5276,
+    "grad_or_professional_degree_est":2375,
+    "registration_rate":0.63,
+    "turnout_rate":0.65,
+    "population":36600,
+    "num_registered_voters":22944,
+    "num_voted":"14838",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.260818,28.566338 ]
+    },
+    "properties": {
+    "Zip_CoDE":32814,
+    "less_than_grade_9_est":23,
+    "high_school_non_grad_est":112,
+    "high_school_grad_est":494,
+    "some_college_no_degree_est":645,
+    "associates_degree_est":459,
+    "bachelor_degree_est":2100,
+    "grad_or_professional_degree_est":1704,
+    "registration_rate":0.72,
+    "turnout_rate":0.79,
+    "population":8197,
+    "num_registered_voters":5883,
+    "num_voted":"4672",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.24717,28.591692 ]
+    },
+    "properties": {
+    "Zip_CoDE":32817,
+    "less_than_grade_9_est":607,
+    "high_school_non_grad_est":1525,
+    "high_school_grad_est":4860,
+    "some_college_no_degree_est":3831,
+    "associates_degree_est":2437,
+    "bachelor_degree_est":4938,
+    "grad_or_professional_degree_est":2410,
+    "registration_rate":0.65,
+    "turnout_rate":0.75,
+    "population":36562,
+    "num_registered_voters":23672,
+    "num_voted":"17840",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.48608,28.583103 ]
+    },
+    "properties": {
+    "Zip_CoDE":32818,
+    "less_than_grade_9_est":2486,
+    "high_school_non_grad_est":3414,
+    "high_school_grad_est":10483,
+    "some_college_no_degree_est":6577,
+    "associates_degree_est":3111,
+    "bachelor_degree_est":4139,
+    "grad_or_professional_degree_est":1541,
+    "registration_rate":0.48,
+    "turnout_rate":0.71,
+    "population":55058,
+    "num_registered_voters":26595,
+    "num_voted":"19012",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.47514,28.463509 ]
+    },
+    "properties": {
+    "Zip_CoDE":32819,
+    "less_than_grade_9_est":581,
+    "high_school_non_grad_est":850,
+    "high_school_grad_est":3424,
+    "some_college_no_degree_est":3795,
+    "associates_degree_est":2164,
+    "bachelor_degree_est":5637,
+    "grad_or_professional_degree_est":2780,
+    "registration_rate":0.7,
+    "turnout_rate":0.84,
+    "population":28016,
+    "num_registered_voters":19615,
+    "num_voted":"16483",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.10735,28.561242 ]
+    },
+    "properties": {
+    "Zip_CoDE":32820,
+    "less_than_grade_9_est":318,
+    "high_school_non_grad_est":583,
+    "high_school_grad_est":1263,
+    "some_college_no_degree_est":1251,
+    "associates_degree_est":565,
+    "bachelor_degree_est":1243,
+    "grad_or_professional_degree_est":769,
+    "registration_rate":0.72,
+    "turnout_rate":0.65,
+    "population":9240,
+    "num_registered_voters":6666,
+    "num_voted":"4359",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.47345,28.391608 ]
+    },
+    "properties": {
+    "Zip_CoDE":32821,
+    "less_than_grade_9_est":266,
+    "high_school_non_grad_est":773,
+    "high_school_grad_est":2906,
+    "some_college_no_degree_est":2520,
+    "associates_degree_est":1367,
+    "bachelor_degree_est":3716,
+    "grad_or_professional_degree_est":983,
+    "registration_rate":0.71,
+    "turnout_rate":0.56,
+    "population":17374,
+    "num_registered_voters":12415,
+    "num_voted":"6908",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.6449,27.843052 ]
+    },
+    "properties": {
+    "Zip_CoDE":33702,
+    "less_than_grade_9_est":574,
+    "high_school_non_grad_est":1558,
+    "high_school_grad_est":6344,
+    "some_college_no_degree_est":4959,
+    "associates_degree_est":2275,
+    "bachelor_degree_est":4416,
+    "grad_or_professional_degree_est":2278,
+    "registration_rate":0.93,
+    "turnout_rate":0.49,
+    "population":30562,
+    "num_registered_voters":28386,
+    "num_voted":"13967",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Saint Petersburg",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.62795,27.816977 ]
+    },
+    "properties": {
+    "Zip_CoDE":33703,
+    "less_than_grade_9_est":412,
+    "high_school_non_grad_est":1095,
+    "high_school_grad_est":4235,
+    "some_college_no_degree_est":3813,
+    "associates_degree_est":1746,
+    "bachelor_degree_est":4296,
+    "grad_or_professional_degree_est":2548,
+    "registration_rate":0.7,
+    "turnout_rate":0.75,
+    "population":25457,
+    "num_registered_voters":17733,
+    "num_voted":"13343",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Saint Petersburg",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.63751,27.796454 ]
+    },
+    "properties": {
+    "Zip_CoDE":33704,
+    "less_than_grade_9_est":223,
+    "high_school_non_grad_est":404,
+    "high_school_grad_est":2214,
+    "some_college_no_degree_est":2200,
+    "associates_degree_est":993,
+    "bachelor_degree_est":3698,
+    "grad_or_professional_degree_est":2934,
+    "registration_rate":0.77,
+    "turnout_rate":0.77,
+    "population":16503,
+    "num_registered_voters":12785,
+    "num_voted":"9890",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Saint Petersburg",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.64349,27.741306 ]
+    },
+    "properties": {
+    "Zip_CoDE":33705,
+    "less_than_grade_9_est":988,
+    "high_school_non_grad_est":1510,
+    "high_school_grad_est":5612,
+    "some_college_no_degree_est":3985,
+    "associates_degree_est":1764,
+    "bachelor_degree_est":3148,
+    "grad_or_professional_degree_est":2391,
+    "registration_rate":0.71,
+    "turnout_rate":0.67,
+    "population":27596,
+    "num_registered_voters":19642,
+    "num_voted":"13084",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Saint Petersburg",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.95625,28.128494 ]
+    },
+    "properties": {
+    "Zip_CoDE":33809,
+    "less_than_grade_9_est":716,
+    "high_school_non_grad_est":1650,
+    "high_school_grad_est":7904,
+    "some_college_no_degree_est":4396,
+    "associates_degree_est":1902,
+    "bachelor_degree_est":2822,
+    "grad_or_professional_degree_est":1479,
+    "registration_rate":0.66,
+    "turnout_rate":0.57,
+    "population":30137,
+    "num_registered_voters":19931,
+    "num_voted":"11430",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Lakeland",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.01033,28.106787 ]
+    },
+    "properties": {
+    "Zip_CoDE":33810,
+    "less_than_grade_9_est":1338,
+    "high_school_non_grad_est":3100,
+    "high_school_grad_est":12342,
+    "some_college_no_degree_est":7027,
+    "associates_degree_est":3515,
+    "bachelor_degree_est":4134,
+    "grad_or_professional_degree_est":2019,
+    "registration_rate":0.64,
+    "turnout_rate":0.68,
+    "population":50302,
+    "num_registered_voters":32267,
+    "num_voted":"22079",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Lakeland",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.00841,27.978316 ]
+    },
+    "properties": {
+    "Zip_CoDE":33811,
+    "less_than_grade_9_est":635,
+    "high_school_non_grad_est":904,
+    "high_school_grad_est":5790,
+    "some_college_no_degree_est":3236,
+    "associates_degree_est":1231,
+    "bachelor_degree_est":2167,
+    "grad_or_professional_degree_est":807,
+    "registration_rate":0.73,
+    "turnout_rate":0.72,
+    "population":21739,
+    "num_registered_voters":15864,
+    "num_voted":"11490",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Lakeland",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.92215,27.965469 ]
+    },
+    "properties": {
+    "Zip_CoDE":33813,
+    "less_than_grade_9_est":351,
+    "high_school_non_grad_est":933,
+    "high_school_grad_est":6366,
+    "some_college_no_degree_est":4788,
+    "associates_degree_est":2283,
+    "bachelor_degree_est":6387,
+    "grad_or_professional_degree_est":3673,
+    "registration_rate":0.68,
+    "turnout_rate":0.76,
+    "population":37211,
+    "num_registered_voters":25365,
+    "num_voted":"19325",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Lakeland",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.9849,28.042948 ]
+    },
+    "properties": {
+    "Zip_CoDE":33815,
+    "less_than_grade_9_est":900,
+    "high_school_non_grad_est":1384,
+    "high_school_grad_est":4810,
+    "some_college_no_degree_est":1343,
+    "associates_degree_est":600,
+    "bachelor_degree_est":532,
+    "grad_or_professional_degree_est":247,
+    "registration_rate":0.52,
+    "turnout_rate":0.54,
+    "population":14328,
+    "num_registered_voters":7421,
+    "num_voted":"4035",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Lakeland",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.80267,28.068865 ]
+    },
+    "properties": {
+    "Zip_CoDE":33823,
+    "less_than_grade_9_est":1423,
+    "high_school_non_grad_est":2418,
+    "high_school_grad_est":7965,
+    "some_college_no_degree_est":3964,
+    "associates_degree_est":1808,
+    "bachelor_degree_est":1939,
+    "grad_or_professional_degree_est":1093,
+    "registration_rate":0.63,
+    "turnout_rate":0.67,
+    "population":32139,
+    "num_registered_voters":20313,
+    "num_voted":"13569",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Auburndale",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.28661,26.849473 ]
+    },
+    "properties": {
+    "Zip_CoDE":33946,
+    "less_than_grade_9_est":33,
+    "high_school_non_grad_est":127,
+    "high_school_grad_est":629,
+    "some_college_no_degree_est":401,
+    "associates_degree_est":176,
+    "bachelor_degree_est":428,
+    "grad_or_professional_degree_est":159,
+    "registration_rate":0.95,
+    "turnout_rate":0.81,
+    "population":2435,
+    "num_registered_voters":2315,
+    "num_voted":"1884",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Placida",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.26125,26.894448 ]
+    },
+    "properties": {
+    "Zip_CoDE":33947,
+    "less_than_grade_9_est":110,
+    "high_school_non_grad_est":244,
+    "high_school_grad_est":2599,
+    "some_college_no_degree_est":1975,
+    "associates_degree_est":697,
+    "bachelor_degree_est":1324,
+    "grad_or_professional_degree_est":615,
+    "registration_rate":0.95,
+    "turnout_rate":0.79,
+    "population":8901,
+    "num_registered_voters":8456,
+    "num_voted":"6713",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Rotonda West",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.14859,26.984486 ]
+    },
+    "properties": {
+    "Zip_CoDE":33948,
+    "less_than_grade_9_est":314,
+    "high_school_non_grad_est":750,
+    "high_school_grad_est":4639,
+    "some_college_no_degree_est":3329,
+    "associates_degree_est":1159,
+    "bachelor_degree_est":1587,
+    "grad_or_professional_degree_est":1278,
+    "registration_rate":0.73,
+    "turnout_rate":0.72,
+    "population":16361,
+    "num_registered_voters":11984,
+    "num_voted":"8631",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Port Charlotte",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.04106,26.914393 ]
+    },
+    "properties": {
+    "Zip_CoDE":33950,
+    "less_than_grade_9_est":330,
+    "high_school_non_grad_est":920,
+    "high_school_grad_est":5187,
+    "some_college_no_degree_est":4220,
+    "associates_degree_est":1535,
+    "bachelor_degree_est":4010,
+    "grad_or_professional_degree_est":2419,
+    "registration_rate":0.85,
+    "turnout_rate":0.81,
+    "population":22017,
+    "num_registered_voters":18782,
+    "num_voted":"15221",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Punta Gorda",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.09821,26.993876 ]
+    },
+    "properties": {
+    "Zip_CoDE":33952,
+    "less_than_grade_9_est":772,
+    "high_school_non_grad_est":2442,
+    "high_school_grad_est":8725,
+    "some_college_no_degree_est":6140,
+    "associates_degree_est":1831,
+    "bachelor_degree_est":2390,
+    "grad_or_professional_degree_est":1470,
+    "registration_rate":0.61,
+    "turnout_rate":0.68,
+    "population":33662,
+    "num_registered_voters":20505,
+    "num_voted":"14019",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Port Charlotte",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.2112,27.012758 ]
+    },
+    "properties": {
+    "Zip_CoDE":33953,
+    "less_than_grade_9_est":88,
+    "high_school_non_grad_est":322,
+    "high_school_grad_est":1929,
+    "some_college_no_degree_est":1363,
+    "associates_degree_est":662,
+    "bachelor_degree_est":660,
+    "grad_or_professional_degree_est":523,
+    "registration_rate":0.73,
+    "turnout_rate":0.78,
+    "population":6885,
+    "num_registered_voters":5017,
+    "num_voted":"3928",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Port Charlotte",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.12225,27.02442 ]
+    },
+    "properties": {
+    "Zip_CoDE":33954,
+    "less_than_grade_9_est":323,
+    "high_school_non_grad_est":325,
+    "high_school_grad_est":2361,
+    "some_college_no_degree_est":1394,
+    "associates_degree_est":734,
+    "bachelor_degree_est":909,
+    "grad_or_professional_degree_est":412,
+    "registration_rate":0.81,
+    "turnout_rate":0.7,
+    "population":9294,
+    "num_registered_voters":7550,
+    "num_voted":"5302",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Port Charlotte",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.00403,26.837879 ]
+    },
+    "properties": {
+    "Zip_CoDE":33955,
+    "less_than_grade_9_est":315,
+    "high_school_non_grad_est":1061,
+    "high_school_grad_est":2737,
+    "some_college_no_degree_est":2118,
+    "associates_degree_est":727,
+    "bachelor_degree_est":1397,
+    "grad_or_professional_degree_est":916,
+    "registration_rate":0.66,
+    "turnout_rate":0.77,
+    "population":11406,
+    "num_registered_voters":7539,
+    "num_voted":"5794",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Punta Gorda",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.0915,26.536435 ]
+    },
+    "properties": {
+    "Zip_CoDE":33956,
+    "less_than_grade_9_est":36,
+    "high_school_non_grad_est":314,
+    "high_school_grad_est":836,
+    "some_college_no_degree_est":1022,
+    "associates_degree_est":210,
+    "bachelor_degree_est":577,
+    "grad_or_professional_degree_est":377,
+    "registration_rate":0.9,
+    "turnout_rate":0.79,
+    "population":3437,
+    "num_registered_voters":3097,
+    "num_voted":"2436",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Saint James City",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.08045,26.439608 ]
+    },
+    "properties": {
+    "Zip_CoDE":33957,
+    "less_than_grade_9_est":24,
+    "high_school_non_grad_est":161,
+    "high_school_grad_est":690,
+    "some_college_no_degree_est":961,
+    "associates_degree_est":388,
+    "bachelor_degree_est":2236,
+    "grad_or_professional_degree_est":1804,
+    "registration_rate":0.74,
+    "turnout_rate":0.84,
+    "population":7224,
+    "num_registered_voters":5353,
+    "num_voted":"4478",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Sanibel",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.39628,27.052583 ]
+    },
+    "properties": {
+    "Zip_CoDE":33960,
+    "less_than_grade_9_est":58,
+    "high_school_non_grad_est":88,
+    "high_school_grad_est":217,
+    "some_college_no_degree_est":125,
+    "associates_degree_est":23,
+    "bachelor_degree_est":67,
+    "grad_or_professional_degree_est":34,
+    "registration_rate":0.76,
+    "turnout_rate":0.69,
+    "population":719,
+    "num_registered_voters":544,
+    "num_voted":"374",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Venus",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.94861,26.552895 ]
+    },
+    "properties": {
+    "Zip_CoDE":33965,
+    "less_than_grade_9_est":0,
+    "high_school_non_grad_est":0,
+    "high_school_grad_est":0,
+    "some_college_no_degree_est":0,
+    "associates_degree_est":4,
+    "bachelor_degree_est":0,
+    "grad_or_professional_degree_est":0,
+    "registration_rate":0.48,
+    "turnout_rate":0.17,
+    "population":1659,
+    "num_registered_voters":794,
+    "num_voted":"136",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Fort Myers",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.70296,26.60599 ]
+    },
+    "properties": {
+    "Zip_CoDE":33971,
+    "less_than_grade_9_est":991,
+    "high_school_non_grad_est":1677,
+    "high_school_grad_est":5249,
+    "some_college_no_degree_est":2982,
+    "associates_degree_est":1447,
+    "bachelor_degree_est":1375,
+    "grad_or_professional_degree_est":546,
+    "registration_rate":0.44,
+    "turnout_rate":0.56,
+    "population":27255,
+    "num_registered_voters":12077,
+    "num_voted":"6736",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Lehigh Acres",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.59391,26.634332 ]
+    },
+    "properties": {
+    "Zip_CoDE":33972,
+    "less_than_grade_9_est":749,
+    "high_school_non_grad_est":1253,
+    "high_school_grad_est":3193,
+    "some_college_no_degree_est":2146,
+    "associates_degree_est":980,
+    "bachelor_degree_est":1258,
+    "grad_or_professional_degree_est":518,
+    "registration_rate":0.49,
+    "turnout_rate":0.61,
+    "population":15299,
+    "num_registered_voters":7554,
+    "num_voted":"4617",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Lehigh Acres",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.00964,26.999486 ]
+    },
+    "properties": {
+    "Zip_CoDE":33983,
+    "less_than_grade_9_est":507,
+    "high_school_non_grad_est":706,
+    "high_school_grad_est":3970,
+    "some_college_no_degree_est":2651,
+    "associates_degree_est":1396,
+    "bachelor_degree_est":1369,
+    "grad_or_professional_degree_est":875,
+    "registration_rate":0.79,
+    "turnout_rate":0.76,
+    "population":14422,
+    "num_registered_voters":11407,
+    "num_voted":"8669",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Punta Gorda",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.95251,26.63075 ]
+    },
+    "properties": {
+    "Zip_CoDE":33990,
+    "less_than_grade_9_est":1175,
+    "high_school_non_grad_est":1561,
+    "high_school_grad_est":8878,
+    "some_college_no_degree_est":5387,
+    "associates_degree_est":2245,
+    "bachelor_degree_est":3242,
+    "grad_or_professional_degree_est":1427,
+    "registration_rate":0.62,
+    "turnout_rate":0.67,
+    "population":32901,
+    "num_registered_voters":20492,
+    "num_voted":"13663",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Cape Coral",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.00674,26.634338 ]
+    },
+    "properties": {
+    "Zip_CoDE":33991,
+    "less_than_grade_9_est":285,
+    "high_school_non_grad_est":597,
+    "high_school_grad_est":4704,
+    "some_college_no_degree_est":2953,
+    "associates_degree_est":1652,
+    "bachelor_degree_est":2803,
+    "grad_or_professional_degree_est":1117,
+    "registration_rate":0.75,
+    "turnout_rate":0.69,
+    "population":22354,
+    "num_registered_voters":16796,
+    "num_voted":"11623",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Cape Coral",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.47836,27.240571 ]
+    },
+    "properties": {
+    "Zip_CoDE":34238,
+    "less_than_grade_9_est":103,
+    "high_school_non_grad_est":338,
+    "high_school_grad_est":3093,
+    "some_college_no_degree_est":2996,
+    "associates_degree_est":1166,
+    "bachelor_degree_est":3997,
+    "grad_or_professional_degree_est":3945,
+    "registration_rate":0.88,
+    "turnout_rate":0.81,
+    "population":19364,
+    "num_registered_voters":17127,
+    "num_voted":"13856",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Sarasota",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.5213,27.310924 ]
+    },
+    "properties": {
+    "Zip_CoDE":34239,
+    "less_than_grade_9_est":489,
+    "high_school_non_grad_est":365,
+    "high_school_grad_est":2736,
+    "some_college_no_degree_est":2203,
+    "associates_degree_est":911,
+    "bachelor_degree_est":2942,
+    "grad_or_professional_degree_est":1830,
+    "registration_rate":0.7,
+    "turnout_rate":0.75,
+    "population":15499,
+    "num_registered_voters":10797,
+    "num_voted":"8098",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Sarasota",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.40894,27.33458 ]
+    },
+    "properties": {
+    "Zip_CoDE":34240,
+    "less_than_grade_9_est":245,
+    "high_school_non_grad_est":293,
+    "high_school_grad_est":2232,
+    "some_college_no_degree_est":1725,
+    "associates_degree_est":598,
+    "bachelor_degree_est":1777,
+    "grad_or_professional_degree_est":1510,
+    "registration_rate":0.98,
+    "turnout_rate":0.78,
+    "population":11142,
+    "num_registered_voters":10919,
+    "num_voted":"8566",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Sarasota",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.41676,27.272873 ]
+    },
+    "properties": {
+    "Zip_CoDE":34241,
+    "less_than_grade_9_est":210,
+    "high_school_non_grad_est":358,
+    "high_school_grad_est":2745,
+    "some_college_no_degree_est":2286,
+    "associates_degree_est":981,
+    "bachelor_degree_est":2558,
+    "grad_or_professional_degree_est":1695,
+    "registration_rate":0.77,
+    "turnout_rate":0.78,
+    "population":14675,
+    "num_registered_voters":11227,
+    "num_voted":"8728",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Sarasota",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.39845,29.845122 ]
+    },
+    "properties": {
+    "Zip_CoDE":32658,
+    "less_than_grade_9_est":10,
+    "high_school_non_grad_est":14,
+    "high_school_grad_est":66,
+    "some_college_no_degree_est":52,
+    "associates_degree_est":20,
+    "bachelor_degree_est":11,
+    "grad_or_professional_degree_est":1,
+    "registration_rate":0.27,
+    "turnout_rate":0.63,
+    "population":376,
+    "num_registered_voters":103,
+    "num_voted":"65",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"La Crosse",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.99026,29.643244 ]
+    },
+    "properties": {
+    "Zip_CoDE":32680,
+    "less_than_grade_9_est":633,
+    "high_school_non_grad_est":951,
+    "high_school_grad_est":3171,
+    "some_college_no_degree_est":1651,
+    "associates_degree_est":507,
+    "bachelor_degree_est":394,
+    "grad_or_professional_degree_est":99,
+    "registration_rate":0.65,
+    "turnout_rate":0.7,
+    "population":10111,
+    "num_registered_voters":6600,
+    "num_voted":"4620",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Old Town",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.2158,29.425291 ]
+    },
+    "properties": {
+    "Zip_CoDE":32681,
+    "less_than_grade_9_est":0,
+    "high_school_non_grad_est":0,
+    "high_school_grad_est":28,
+    "some_college_no_degree_est":0,
+    "associates_degree_est":0,
+    "bachelor_degree_est":48,
+    "grad_or_professional_degree_est":0,
+    "registration_rate":0.72,
+    "turnout_rate":0.5,
+    "population":47,
+    "num_registered_voters":34,
+    "num_voted":"17",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orange Lake",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.89049,28.707648 ]
+    },
+    "properties": {
+    "Zip_CoDE":32754,
+    "less_than_grade_9_est":238,
+    "high_school_non_grad_est":683,
+    "high_school_grad_est":2603,
+    "some_college_no_degree_est":1848,
+    "associates_degree_est":772,
+    "bachelor_degree_est":971,
+    "grad_or_professional_degree_est":524,
+    "registration_rate":0.83,
+    "turnout_rate":0.72,
+    "population":10436,
+    "num_registered_voters":8677,
+    "num_voted":"6248",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Mims",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.64475,28.786272 ]
+    },
+    "properties": {
+    "Zip_CoDE":32757,
+    "less_than_grade_9_est":1000,
+    "high_school_non_grad_est":1365,
+    "high_school_grad_est":5480,
+    "some_college_no_degree_est":4143,
+    "associates_degree_est":1634,
+    "bachelor_degree_est":3441,
+    "grad_or_professional_degree_est":2141,
+    "registration_rate":0.73,
+    "turnout_rate":0.74,
+    "population":26679,
+    "num_registered_voters":19424,
+    "num_voted":"14380",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Mount Dora",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.85374,28.868986 ]
+    },
+    "properties": {
+    "Zip_CoDE":32759,
+    "less_than_grade_9_est":107,
+    "high_school_non_grad_est":282,
+    "high_school_grad_est":907,
+    "some_college_no_degree_est":489,
+    "associates_degree_est":160,
+    "bachelor_degree_est":213,
+    "grad_or_professional_degree_est":51,
+    "registration_rate":0.8,
+    "turnout_rate":0.7,
+    "population":2787,
+    "num_registered_voters":2238,
+    "num_voted":"1556",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Oak Hill",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.30512,28.945857 ]
+    },
+    "properties": {
+    "Zip_CoDE":32763,
+    "less_than_grade_9_est":547,
+    "high_school_non_grad_est":1200,
+    "high_school_grad_est":6190,
+    "some_college_no_degree_est":4034,
+    "associates_degree_est":1705,
+    "bachelor_degree_est":2050,
+    "grad_or_professional_degree_est":721,
+    "registration_rate":0.65,
+    "turnout_rate":0.64,
+    "population":23098,
+    "num_registered_voters":15089,
+    "num_voted":"9704",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orange City",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.0948,28.834172 ]
+    },
+    "properties": {
+    "Zip_CoDE":32764,
+    "less_than_grade_9_est":78,
+    "high_school_non_grad_est":431,
+    "high_school_grad_est":964,
+    "some_college_no_degree_est":561,
+    "associates_degree_est":276,
+    "bachelor_degree_est":285,
+    "grad_or_professional_degree_est":97,
+    "registration_rate":0.74,
+    "turnout_rate":0.72,
+    "population":3188,
+    "num_registered_voters":2355,
+    "num_voted":"1686",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Osteen",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.21026,28.656375 ]
+    },
+    "properties": {
+    "Zip_CoDE":32765,
+    "less_than_grade_9_est":743,
+    "high_school_non_grad_est":1097,
+    "high_school_grad_est":7070,
+    "some_college_no_degree_est":6533,
+    "associates_degree_est":5652,
+    "bachelor_degree_est":10640,
+    "grad_or_professional_degree_est":6246,
+    "registration_rate":0.65,
+    "turnout_rate":0.72,
+    "population":65151,
+    "num_registered_voters":42332,
+    "num_voted":"30667",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Oviedo",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.11906,28.639275 ]
+    },
+    "properties": {
+    "Zip_CoDE":32766,
+    "less_than_grade_9_est":270,
+    "high_school_non_grad_est":347,
+    "high_school_grad_est":1847,
+    "some_college_no_degree_est":2056,
+    "associates_degree_est":1198,
+    "bachelor_degree_est":2930,
+    "grad_or_professional_degree_est":1610,
+    "registration_rate":0.66,
+    "turnout_rate":0.75,
+    "population":17252,
+    "num_registered_voters":11313,
+    "num_voted":"8469",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Oviedo",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.50174,29.008612 ]
+    },
+    "properties": {
+    "Zip_CoDE":32767,
+    "less_than_grade_9_est":170,
+    "high_school_non_grad_est":371,
+    "high_school_grad_est":983,
+    "some_college_no_degree_est":287,
+    "associates_degree_est":233,
+    "bachelor_degree_est":44,
+    "grad_or_professional_degree_est":12,
+    "registration_rate":0.52,
+    "turnout_rate":0.62,
+    "population":3273,
+    "num_registered_voters":1702,
+    "num_voted":"1060",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Paisley",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.28761,28.803979 ]
+    },
+    "properties": {
+    "Zip_CoDE":32771,
+    "less_than_grade_9_est":1099,
+    "high_school_non_grad_est":2475,
+    "high_school_grad_est":8895,
+    "some_college_no_degree_est":7402,
+    "associates_degree_est":4197,
+    "bachelor_degree_est":7074,
+    "grad_or_professional_degree_est":3301,
+    "registration_rate":0.64,
+    "turnout_rate":0.67,
+    "population":54980,
+    "num_registered_voters":35017,
+    "num_voted":"23486",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Sanford",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.27631,28.769173 ]
+    },
+    "properties": {
+    "Zip_CoDE":32773,
+    "less_than_grade_9_est":850,
+    "high_school_non_grad_est":1218,
+    "high_school_grad_est":6665,
+    "some_college_no_degree_est":4502,
+    "associates_degree_est":2856,
+    "bachelor_degree_est":2744,
+    "grad_or_professional_degree_est":1005,
+    "registration_rate":0.63,
+    "turnout_rate":0.63,
+    "population":30955,
+    "num_registered_voters":19496,
+    "num_voted":"12276",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Sanford",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.53689,28.804039 ]
+    },
+    "properties": {
+    "Zip_CoDE":32776,
+    "less_than_grade_9_est":607,
+    "high_school_non_grad_est":545,
+    "high_school_grad_est":2258,
+    "some_college_no_degree_est":1976,
+    "associates_degree_est":718,
+    "bachelor_degree_est":1122,
+    "grad_or_professional_degree_est":825,
+    "registration_rate":0.66,
+    "turnout_rate":0.72,
+    "population":12416,
+    "num_registered_voters":8247,
+    "num_voted":"5977",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Sorrento",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.73184,28.799017 ]
+    },
+    "properties": {
+    "Zip_CoDE":32778,
+    "less_than_grade_9_est":592,
+    "high_school_non_grad_est":1244,
+    "high_school_grad_est":5906,
+    "some_college_no_degree_est":3594,
+    "associates_degree_est":1502,
+    "bachelor_degree_est":2059,
+    "grad_or_professional_degree_est":1211,
+    "registration_rate":0.71,
+    "turnout_rate":0.73,
+    "population":21406,
+    "num_registered_voters":15178,
+    "num_voted":"11009",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Tavares",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.41711,28.704874 ]
+    },
+    "properties": {
+    "Zip_CoDE":32779,
+    "less_than_grade_9_est":192,
+    "high_school_non_grad_est":492,
+    "high_school_grad_est":3247,
+    "some_college_no_degree_est":3745,
+    "associates_degree_est":2420,
+    "bachelor_degree_est":6809,
+    "grad_or_professional_degree_est":4101,
+    "registration_rate":0.73,
+    "turnout_rate":0.79,
+    "population":29737,
+    "num_registered_voters":21721,
+    "num_voted":"17195",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Longwood",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.81695,28.564077 ]
+    },
+    "properties": {
+    "Zip_CoDE":32780,
+    "less_than_grade_9_est":425,
+    "high_school_non_grad_est":1625,
+    "high_school_grad_est":7833,
+    "some_college_no_degree_est":6363,
+    "associates_degree_est":3103,
+    "bachelor_degree_est":4974,
+    "grad_or_professional_degree_est":2277,
+    "registration_rate":0.84,
+    "turnout_rate":0.68,
+    "population":35399,
+    "num_registered_voters":29821,
+    "num_voted":"20144",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Titusville",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.70621,28.948549 ]
+    },
+    "properties": {
+    "Zip_CoDE":32784,
+    "less_than_grade_9_est":303,
+    "high_school_non_grad_est":1162,
+    "high_school_grad_est":2985,
+    "some_college_no_degree_est":1997,
+    "associates_degree_est":783,
+    "bachelor_degree_est":599,
+    "grad_or_professional_degree_est":470,
+    "registration_rate":0.58,
+    "turnout_rate":0.68,
+    "population":12616,
+    "num_registered_voters":7256,
+    "num_voted":"4958",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Umatilla",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.35594,28.598677 ]
+    },
+    "properties": {
+    "Zip_CoDE":32789,
+    "less_than_grade_9_est":290,
+    "high_school_non_grad_est":688,
+    "high_school_grad_est":2637,
+    "some_college_no_degree_est":2418,
+    "associates_degree_est":1170,
+    "bachelor_degree_est":5598,
+    "grad_or_professional_degree_est":4892,
+    "registration_rate":0.72,
+    "turnout_rate":0.75,
+    "population":26568,
+    "num_registered_voters":19082,
+    "num_voted":"14349",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Winter Park",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.30606,28.607077 ]
+    },
+    "properties": {
+    "Zip_CoDE":32792,
+    "less_than_grade_9_est":864,
+    "high_school_non_grad_est":1555,
+    "high_school_grad_est":8255,
+    "some_college_no_degree_est":8277,
+    "associates_degree_est":3975,
+    "bachelor_degree_est":8072,
+    "grad_or_professional_degree_est":4194,
+    "registration_rate":0.63,
+    "turnout_rate":0.65,
+    "population":50991,
+    "num_registered_voters":32010,
+    "num_voted":"20702",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Winter Park",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.84123,28.623371 ]
+    },
+    "properties": {
+    "Zip_CoDE":32796,
+    "less_than_grade_9_est":240,
+    "high_school_non_grad_est":1032,
+    "high_school_grad_est":5041,
+    "some_college_no_degree_est":3961,
+    "associates_degree_est":2218,
+    "bachelor_degree_est":2188,
+    "grad_or_professional_degree_est":1138,
+    "registration_rate":0.7,
+    "turnout_rate":0.7,
+    "population":20948,
+    "num_registered_voters":14665,
+    "num_voted":"10304",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Titusville",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.5754,28.716923 ]
+    },
+    "properties": {
+    "Zip_CoDE":32798,
+    "less_than_grade_9_est":106,
+    "high_school_non_grad_est":170,
+    "high_school_grad_est":778,
+    "some_college_no_degree_est":586,
+    "associates_degree_est":113,
+    "bachelor_degree_est":325,
+    "grad_or_professional_degree_est":51,
+    "registration_rate":0.75,
+    "turnout_rate":0.78,
+    "population":2595,
+    "num_registered_voters":1940,
+    "num_voted":"1505",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Zellwood",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.28949,28.494931 ]
+    },
+    "properties": {
+    "Zip_CoDE":32822,
+    "less_than_grade_9_est":2113,
+    "high_school_non_grad_est":4748,
+    "high_school_grad_est":12445,
+    "some_college_no_degree_est":7913,
+    "associates_degree_est":4244,
+    "bachelor_degree_est":5170,
+    "grad_or_professional_degree_est":1665,
+    "registration_rate":0.61,
+    "turnout_rate":0.51,
+    "population":60781,
+    "num_registered_voters":37229,
+    "num_voted":"18913",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.35898,28.410872 ]
+    },
+    "properties": {
+    "Zip_CoDE":32824,
+    "less_than_grade_9_est":1589,
+    "high_school_non_grad_est":2073,
+    "high_school_grad_est":7606,
+    "some_college_no_degree_est":6624,
+    "associates_degree_est":3451,
+    "bachelor_degree_est":4764,
+    "grad_or_professional_degree_est":1477,
+    "registration_rate":0.71,
+    "turnout_rate":0.58,
+    "population":46545,
+    "num_registered_voters":32900,
+    "num_voted":"18931",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.2456,28.543248 ]
+    },
+    "properties": {
+    "Zip_CoDE":32825,
+    "less_than_grade_9_est":1604,
+    "high_school_non_grad_est":2974,
+    "high_school_grad_est":8795,
+    "some_college_no_degree_est":8383,
+    "associates_degree_est":4475,
+    "bachelor_degree_est":8201,
+    "grad_or_professional_degree_est":3608,
+    "registration_rate":0.65,
+    "turnout_rate":0.42,
+    "population":61550,
+    "num_registered_voters":39914,
+    "num_voted":"16840",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.18634,28.584177 ]
+    },
+    "properties": {
+    "Zip_CoDE":32826,
+    "less_than_grade_9_est":531,
+    "high_school_non_grad_est":939,
+    "high_school_grad_est":3148,
+    "some_college_no_degree_est":2105,
+    "associates_degree_est":1774,
+    "bachelor_degree_est":3256,
+    "grad_or_professional_degree_est":1695,
+    "registration_rate":0.44,
+    "turnout_rate":0.55,
+    "population":36464,
+    "num_registered_voters":16133,
+    "num_voted":"8807",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.30353,28.425221 ]
+    },
+    "properties": {
+    "Zip_CoDE":32827,
+    "less_than_grade_9_est":58,
+    "high_school_non_grad_est":279,
+    "high_school_grad_est":1238,
+    "some_college_no_degree_est":913,
+    "associates_degree_est":573,
+    "bachelor_degree_est":1520,
+    "grad_or_professional_degree_est":1436,
+    "registration_rate":0.76,
+    "turnout_rate":0.46,
+    "population":14273,
+    "num_registered_voters":10842,
+    "num_voted":"4962",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.18404,28.542132 ]
+    },
+    "properties": {
+    "Zip_CoDE":32828,
+    "less_than_grade_9_est":1011,
+    "high_school_non_grad_est":1747,
+    "high_school_grad_est":6602,
+    "some_college_no_degree_est":7802,
+    "associates_degree_est":4646,
+    "bachelor_degree_est":11471,
+    "grad_or_professional_degree_est":5427,
+    "registration_rate":0.65,
+    "turnout_rate":0.63,
+    "population":65665,
+    "num_registered_voters":42766,
+    "num_voted":"26957",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.26436,28.491653 ]
+    },
+    "properties": {
+    "Zip_CoDE":32829,
+    "less_than_grade_9_est":566,
+    "high_school_non_grad_est":813,
+    "high_school_grad_est":3280,
+    "some_college_no_degree_est":2507,
+    "associates_degree_est":2125,
+    "bachelor_degree_est":2570,
+    "grad_or_professional_degree_est":1967,
+    "registration_rate":0.66,
+    "turnout_rate":0.62,
+    "population":19888,
+    "num_registered_voters":13200,
+    "num_voted":"8136",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.505894,28.385549 ]
+    },
+    "properties": {
+    "Zip_CoDE":32830,
+    "less_than_grade_9_est":0,
+    "high_school_non_grad_est":2,
+    "high_school_grad_est":4,
+    "some_college_no_degree_est":0,
+    "associates_degree_est":5,
+    "bachelor_degree_est":0,
+    "grad_or_professional_degree_est":0,
+    "registration_rate":0.73,
+    "turnout_rate":0.45,
+    "population":15,
+    "num_registered_voters":11,
+    "num_voted":"5",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.13666,28.458149 ]
+    },
+    "properties": {
+    "Zip_CoDE":32831,
+    "less_than_grade_9_est":321,
+    "high_school_non_grad_est":783,
+    "high_school_grad_est":1183,
+    "some_college_no_degree_est":282,
+    "associates_degree_est":138,
+    "bachelor_degree_est":78,
+    "grad_or_professional_degree_est":44,
+    "registration_rate":0.03,
+    "turnout_rate":0.59,
+    "population":3280,
+    "num_registered_voters":82,
+    "num_voted":"48",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.17653,28.395979 ]
+    },
+    "properties": {
+    "Zip_CoDE":32832,
+    "less_than_grade_9_est":290,
+    "high_school_non_grad_est":322,
+    "high_school_grad_est":1678,
+    "some_college_no_degree_est":2505,
+    "associates_degree_est":1423,
+    "bachelor_degree_est":4436,
+    "grad_or_professional_degree_est":2339,
+    "registration_rate":0.76,
+    "turnout_rate":0.63,
+    "population":24325,
+    "num_registered_voters":18475,
+    "num_voted":"11622",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.09078,28.511879 ]
+    },
+    "properties": {
+    "Zip_CoDE":32833,
+    "less_than_grade_9_est":102,
+    "high_school_non_grad_est":344,
+    "high_school_grad_est":2343,
+    "some_college_no_degree_est":1495,
+    "associates_degree_est":733,
+    "bachelor_degree_est":857,
+    "grad_or_professional_degree_est":633,
+    "registration_rate":0.29,
+    "turnout_rate":0.66,
+    "population":24325,
+    "num_registered_voters":6981,
+    "num_voted":"4585",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.47863,28.528789 ]
+    },
+    "properties": {
+    "Zip_CoDE":32835,
+    "less_than_grade_9_est":1110,
+    "high_school_non_grad_est":1497,
+    "high_school_grad_est":7256,
+    "some_college_no_degree_est":5369,
+    "associates_degree_est":3217,
+    "bachelor_degree_est":6787,
+    "grad_or_professional_degree_est":4391,
+    "registration_rate":0.8,
+    "turnout_rate":0.6,
+    "population":29697,
+    "num_registered_voters":23675,
+    "num_voted":"14108",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.52488,28.401151 ]
+    },
+    "properties": {
+    "Zip_CoDE":32836,
+    "less_than_grade_9_est":322,
+    "high_school_non_grad_est":484,
+    "high_school_grad_est":2038,
+    "some_college_no_degree_est":1817,
+    "associates_degree_est":1350,
+    "bachelor_degree_est":4283,
+    "grad_or_professional_degree_est":2191,
+    "registration_rate":0.3,
+    "turnout_rate":0.67,
+    "population":46058,
+    "num_registered_voters":13997,
+    "num_voted":"9413",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.41182,28.385906 ]
+    },
+    "properties": {
+    "Zip_CoDE":32837,
+    "less_than_grade_9_est":1461,
+    "high_school_non_grad_est":2112,
+    "high_school_grad_est":8520,
+    "some_college_no_degree_est":8169,
+    "associates_degree_est":3564,
+    "bachelor_degree_est":8309,
+    "grad_or_professional_degree_est":3953,
+    "registration_rate":0.77,
+    "turnout_rate":0.61,
+    "population":40154,
+    "num_registered_voters":31027,
+    "num_voted":"18938",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.40625,28.489758 ]
+    },
+    "properties": {
+    "Zip_CoDE":32839,
+    "less_than_grade_9_est":2885,
+    "high_school_non_grad_est":4088,
+    "high_school_grad_est":10263,
+    "some_college_no_degree_est":7359,
+    "associates_degree_est":2806,
+    "bachelor_degree_est":5188,
+    "grad_or_professional_degree_est":1075,
+    "registration_rate":0.44,
+    "turnout_rate":0.47,
+    "population":54051,
+    "num_registered_voters":23984,
+    "num_voted":"11352",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Orlando",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.61987,28.077494 ]
+    },
+    "properties": {
+    "Zip_CoDE":32901,
+    "less_than_grade_9_est":755,
+    "high_school_non_grad_est":1356,
+    "high_school_grad_est":5491,
+    "some_college_no_degree_est":4015,
+    "associates_degree_est":1571,
+    "bachelor_degree_est":3105,
+    "grad_or_professional_degree_est":1783,
+    "registration_rate":0.32,
+    "turnout_rate":0.63,
+    "population":52371,
+    "num_registered_voters":16694,
+    "num_voted":"10510",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Melbourne",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.57414,28.103191 ]
+    },
+    "properties": {
+    "Zip_CoDE":32903,
+    "less_than_grade_9_est":85,
+    "high_school_non_grad_est":242,
+    "high_school_grad_est":1983,
+    "some_college_no_degree_est":2250,
+    "associates_degree_est":1049,
+    "bachelor_degree_est":2899,
+    "grad_or_professional_degree_est":2141,
+    "registration_rate":0.44,
+    "turnout_rate":0.77,
+    "population":24772,
+    "num_registered_voters":11007,
+    "num_voted":"8461",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Indialantic",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.67167,28.073891 ]
+    },
+    "properties": {
+    "Zip_CoDE":32904,
+    "less_than_grade_9_est":306,
+    "high_school_non_grad_est":1247,
+    "high_school_grad_est":6106,
+    "some_college_no_degree_est":4188,
+    "associates_degree_est":2422,
+    "bachelor_degree_est":4125,
+    "grad_or_professional_degree_est":2497,
+    "registration_rate":0.71,
+    "turnout_rate":0.71,
+    "population":34025,
+    "num_registered_voters":24243,
+    "num_voted":"17264",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Melbourne",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.60014,28.031689 ]
+    },
+    "properties": {
+    "Zip_CoDE":32905,
+    "less_than_grade_9_est":641,
+    "high_school_non_grad_est":1603,
+    "high_school_grad_est":5366,
+    "some_college_no_degree_est":3862,
+    "associates_degree_est":2199,
+    "bachelor_degree_est":2102,
+    "grad_or_professional_degree_est":968,
+    "registration_rate":0.52,
+    "turnout_rate":0.62,
+    "population":31206,
+    "num_registered_voters":16314,
+    "num_voted":"10193",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Palm Bay",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.67729,28.012241 ]
+    },
+    "properties": {
+    "Zip_CoDE":32907,
+    "less_than_grade_9_est":936,
+    "high_school_non_grad_est":1990,
+    "high_school_grad_est":10072,
+    "some_college_no_degree_est":7433,
+    "associates_degree_est":3233,
+    "bachelor_degree_est":4137,
+    "grad_or_professional_degree_est":1794,
+    "registration_rate":0.71,
+    "turnout_rate":0.67,
+    "population":43395,
+    "num_registered_voters":30641,
+    "num_voted":"20540",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Palm Bay",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.68591,27.958982 ]
+    },
+    "properties": {
+    "Zip_CoDE":32908,
+    "less_than_grade_9_est":327,
+    "high_school_non_grad_est":365,
+    "high_school_grad_est":2941,
+    "some_college_no_degree_est":1931,
+    "associates_degree_est":805,
+    "bachelor_degree_est":910,
+    "grad_or_professional_degree_est":310,
+    "registration_rate":0.2,
+    "turnout_rate":0.63,
+    "population":44097,
+    "num_registered_voters":8973,
+    "num_voted":"5629",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Palm Bay",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.64679,27.950975 ]
+    },
+    "properties": {
+    "Zip_CoDE":32909,
+    "less_than_grade_9_est":1113,
+    "high_school_non_grad_est":1182,
+    "high_school_grad_est":7462,
+    "some_college_no_degree_est":5247,
+    "associates_degree_est":2333,
+    "bachelor_degree_est":2111,
+    "grad_or_professional_degree_est":1407,
+    "registration_rate":0.75,
+    "turnout_rate":0.67,
+    "population":33001,
+    "num_registered_voters":24704,
+    "num_voted":"16432",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"Palm Bay",
+    "State":"FL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Zip_CoDE":null,
+    "less_than_grade_9_est":null,
+    "high_school_non_grad_est":null,
+    "high_school_grad_est":null,
+    "some_college_no_degree_est":null,
+    "associates_degree_est":null,
+    "bachelor_degree_est":null,
+    "grad_or_professional_degree_est":null,
+    "registration_rate":null,
+    "turnout_rate":null,
+    "population":null,
+    "num_registered_voters":null,
+    "num_voted":"",
+    "did_not_vote":"",
+    "average_house_value":"",
+    "average_income":"",
+    "City":"",
+    "State":""
+    }
+  }
+]
+}

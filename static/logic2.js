@@ -40,34 +40,39 @@ info.addTo(map);
 var legend = L.control ({position: 'bottomright'});
 
 
-var data_url = "FinalProjectData.geojson"
+Promise.all([d3.json('../static/FinalProjectData.geojson')]).then(function(data) {
+    console.log(data[0]);
+  });
 
 
-var zip_markers = []
+// var data_url = "FinalProjectData.geojson"
 
 
-async function info() {
-    const data = await d3.json(data_url);
-    var markers = L.markerClusterGroup();
-    for (var i=0;i < info.length; i++) {
-        zip_markers.push(
-            L.circle(info[i].geometry.coordinates, {
-                stroke: false,
-                fillOpacity: 0.75,
-                color: "white",
-                radius: markerSize(info[i].properties.average_income)
-            })
-        );
-        // markers.addLayer(L.marker([info.geometry.coordinates[1], info.geometry.coordinates[0]])
-        //     .bindPopup(info[i].descriptor));
+// var zip_markers = []
+
+
+// async function info() {
+//     const data = await d3.json(data_url);
+//     var markers = L.markerClusterGroup();
+//     for (var i=0;i < info.length; i++) {
+//         zip_markers.push(
+//             L.circle(info[i].geometry.coordinates, {
+//                 stroke: false,
+//                 fillOpacity: 0.75,
+//                 color: "white",
+//                 radius: markerSize(info[i].properties.average_income)
+//             })
+//         );
+//         // markers.addLayer(L.marker([info.geometry.coordinates[1], info.geometry.coordinates[0]])
+//         //     .bindPopup(info[i].descriptor));
     
-}
+// }
 
-var avg_inc = L.layerGroup(zip_markers);
+// var avg_inc = L.layerGroup(zip_markers);
 
 
 
-map.addLayer(avg_inc);
-};
+// map.addLayer(avg_inc);
+// };
 
-console.log(info);
+// console.log(info);
