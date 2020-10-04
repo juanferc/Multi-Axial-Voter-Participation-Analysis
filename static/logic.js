@@ -1,100 +1,100 @@
-var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-    maxZoom: 18,
-    id: "dark-v10",
-    accessToken: "pk.eyJ1IjoibXJ1Y2tlcjgxMyIsImEiOiJja2V1aW80ZnkwcTQzMnlvMHoxN2xxejU5In0.zsIP2dJ6SC89MbBKSfOwpQ"
+d3.json('/static/final_data.geojson').then(function (data) {
+    var points = data.features;
+
+    console.log(points)
+
+    var map = L.map("map", {
+        center: [27.6648, -81.5158],
+        zoom: 7,
+        
     });
 
-// create map
+    var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+        attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
+        maxZoom: 18,
+        id: "light-v9",
+        accessToken: "pk.eyJ1IjoibXJ1Y2tlcjgxMyIsImEiOiJja2V1aW80ZnkwcTQzMnlvMHoxN2xxejU5In0.zsIP2dJ6SC89MbBKSfOwpQ"
+    }).addTo(map);
 
-var layers = {
-    Population: new L.LayerGroup(),
-    Turnout: new L.LayerGroup(),
-    Registration: new L.LayerGroup()
-};
+    // var layers = {
+    //     educational_attainment: new L.LayerGroup(),
+    //     turnout: new L.LayerGroup(),
+    //     registration: new L.LayerGroup()
+    // };
 
-var map = L.map ("map", {
-    center: [27.6648, -81.5158],
-    zoom: 7,
-    layers: [
-        darkmap
-    ]
+    // var overlays = {
+    //     "Educational_attainment": layers.educational_attainment,
+    //     "Turnout Rate": layers.turnout,
+    //     "Registration Rate": layers.registration
+    // };
+
+    // L.control.layers(null, overlays).addTo(map);
+
+    var info = L.control({
+        position: "bottomright"
     });
 
-darkmap.addTo(map);
+    info.onAdd = function () {
+        var div = L.DomUtil.create("div", "legend");
+        return div;
+    };
 
-var overlays = {
-    "Population": layers.Population,
-    "Turnout Rate": layers.Turnout,
-    "Registration Rate": layers.Registration
-};
-
-L.control.layers(null, overlays).addTo(map);
-
-var info = L.control({
-    position: "bottomright"
-  });
-  
-info.onAdd = function() { 
-    var div = L.DomUtil.create("div", "legend");
-    return div;
-  };
-
-info.addTo(map);
+    var markers = L.markerClusterGroup();
+    // var zip_markers = [];
 
 
-var legend = L.control ({position: 'bottomright'});
+    for (var i = 0; i < points.length; i++) {
+        markers.addLayer(L.marker([points[i].geometry.coordinates[1], points[i].geometry.coordinates[0]])
+            .bindPopup(`
+                This City is ${points[i].properties.City}, 
+                which has a population of ${points[i].properties.population}, 
+                and where it's estimated that ${points[i].properties.bachelor_degree_est} people have a bachelor's degree.
+                The voter registration rate for ${points[i].properties.City} is ${points[i].properties.registration_rate}% and the voter turnout rate is ${points[i].properties.turnout_rate}%.
+            `));
+    
+    // var turnoutMarkers = [];
 
+    // for (var i = 0; i < points.length; i++) {
+    //           turnoutMarkers.push(
+    //             L.marker(points[i].geometry.coordinates).bindPopup("<h1>" + points[i].properties.City + "</h1>")
+    //           );
+    //         }
+    
+    
 
-// pull all data
-
-var data_url = 'features.geojson';
-
-// assign color variables for turnout rate intensity (green to red)
-
-var colors = ['#E53935', '#FB8C00', '#FFB300', '#FDD835', '#C0CA33', '#7CB342']
-
-d3.json (data_url, (response) => {
-
-    L.geoJSON (response, {
-        onEachFeature: (feature) => {
-            var Turnout = feature.properties.turnout_rate;
-            var coords = feature.geometry.coordinates;
-            var Registration = feature.geometry.registration_rate;
-            var Population = feature.geometry.population
-
-            
-            var trnColor = ''
-
-            if (turnout_rate > 0.45) {trnColor = colors[0];}
-            else if (turnout_rate > 0.50) {trnColor = colors[1];}
-            else if (turnout_rate > 0.55) {trnColor = colors[2];}
-            else if (turnout_rate > 0.60) {trnColor = colors[3];}
-            else if (turnout_rate > 0.65) {trnColor = colors[4];}
-            else {trnColor = colors[5];}
-            
-            L.circle([coords[1], coords[0]], {
-                radius: Math.pow (turnout_rate, 3) * 1500,
-                color: magColor
-            }).bindPopup (`<strong>turnout ${turnout_rate}</strong><hr>${feature.properties.place}`)
-            .addTo(map);
-        }
-    });
-});
-
-//create legend
-
-legend.onAdd = ((map) => {
-    var div = L.DomUtil.create ('div', 'info legend');
-
-    rates = ['>5', '4-5', '3-4', '2-3', '1-2', '<1'];
-
-    div.innerHTML = '<strong>turnout</strong><hr>';
-
-    for (var x = 0; x < colors.length; x++) {
-        div.innerHTML += `<i style = "background: ${colors[x]}"></i>${rates[x]}<br>`;
+    
+    //     markers.addLayer(L.marker([points[i].geometry.coordinates[1], points[i].geometry.coordinates[0]])
+    //         .bindPopup(`
+    //             This City is ${points[i].properties.City}, 
+    //             which has a voter turnout rate of ${points[i].properties.turnout_rate}.
+    //         `));
+        // zip_markers.push(
+        //     L.circle(points[i].geometry.coordinates, {
+        //         stroke: false,
+        //         fillOpacity: 0.75,
+        //         color: "white",
+        //         // radius: markerSize(points[i].properties.average_income)
+        //     })
+        // );
+        // markers.addLayer(L.marker([points.geometry.coordinates[1], points.geometry.coordinates[0]])
+        //     .bindPopup(points[i].descriptor));
     }
-    return div;
-});
 
-legend.addTo(map);
+    // var avg_inc = L.layerGroup(zip_markers);
+
+    // map.addLayer(avg_inc);
+
+    // var map = L.map("map", {
+    //     center: [27.6648, -81.5158],
+    //     zoom: 7,
+    //     layers: [darkmap,Turnout]
+    // });
+
+    map.addLayer(markers);
+
+    // map.addLayer(Turnout);
+
+    info.addTo(map);
+
+    var legend = L.control({ position: 'bottomright' });
+});
