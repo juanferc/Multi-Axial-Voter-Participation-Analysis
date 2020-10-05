@@ -16,4 +16,4 @@ Data was obtained from several sources utilizing API calls, data inquiries and p
 •	https://ballotpedia.org/
 •	https://worldpopulationreview.com/states
 
-All information was consolidated into a cs and a flask app was constructed to pull the data into the Project’s visualizations from a PostGres database.
+All information was consolidated into one master csv file and a flask app was constructed to pull the data into the Project’s visualizations from a postGres database.
